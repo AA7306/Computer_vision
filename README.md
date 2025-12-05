@@ -7,29 +7,29 @@ This project demonstrates how deep learning models can be used for fast and effi
 Project Overview
 
 This project uses a pre-trained MobileNet SSD (Single Shot Detector) model to detect common objects from a GIF video. Each frame is processed individually, and detected objects are displayed with:
--> Bounding boxes
--> Class labels
--> Confidence percentages
--> FPS (Frames Per Second) measurement
+1) Bounding boxes
+2) Class labels
+3) Confidence percentages
+4) FPS (Frames Per Second) measurement
 The project is designed to run smoothly on Google Colab but can also be adapted for local systems.
 
 Tech Stack
 
-Python 3
-OpenCV (DNN Module)
-MobileNet SSD (Caffe Model)
-Pillow (PIL)
-NumPy
-Google Colab
+1) Python 3
+2) OpenCV (DNN Module)
+3) MobileNet SSD (Caffe Model)
+4) Pillow (PIL)
+5) NumPy
+6) Google Colab
 
 Features
 
-Real-time object detection
-Lightweight and fast MobileNet SSD model
-GIF-based video processing
-Confidence-based filtering of detections
-FPS counter for performance analysis
-Simple and beginner-friendly implementation
+1) Real-time object detection
+2) Lightweight and fast MobileNet SSD model
+3) GIF-based video processing
+4) Confidence-based filtering of detections
+5) FPS counter for performance analysis
+6) Simple and beginner-friendly implementation
 
 Detected Object Classes
 
@@ -52,12 +52,12 @@ computer_vision/
 
 Installation & Setup
 
-Run the following inside Google Colab:
-pip install pillow imutils opencv-python
-Upload the following files:
-MobileNetSSD_deploy.prototxt.txt
-MobileNetSSD_deploy.caffemodel
-real_time.gif
+1) Run the following inside Google Colab:
+2) pip install pillow imutils opencv-python
+3) Upload the following files:
+4) MobileNetSSD_deploy.prototxt.txt
+5) MobileNetSSD_deploy.caffemodel
+6) real_time.gif
 
 How the Project Works
 
@@ -71,9 +71,9 @@ How the Project Works
 
 Output
 
-Objects are detected and labeled on each frame
-Confidence score is displayed for every detection
+Objects are detected and labeled on each frame.
+Confidence score is displayed for every detection.
 FPS and total processing time are shown at the end
 
-Author
+Author,
 Alen Alex Paul
